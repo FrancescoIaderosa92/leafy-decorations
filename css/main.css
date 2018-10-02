@@ -4,6 +4,9 @@ html {
 
 .masthead {
 
+  background-image: url("../images/leaf-bg.svg");
+  background-size: 64px;
+
 }
 
 .logo {
@@ -12,10 +15,16 @@ html {
 
 .nav {
   text-align: center;
+  border-radius: 8px;
+
 }
 
 .nav a {
   text-decoration: none;
+  border-radius: 8px;
+  border-width: 3px;
+  background-color: #588477;
+  color: #fff;
 }
 
 .nav a:hover {
@@ -24,9 +33,20 @@ html {
 
 .banner {
 
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+
+
+
 }
 
 .banner-content {
+
+  background-image: url("../images/two-leaves.svg");
+  background-position:
+  background-size:
+  background-repeat: no-repeat;
+  background-color: #588477;
 
 }
 
