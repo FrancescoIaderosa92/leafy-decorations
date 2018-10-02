@@ -8,21 +8,20 @@ html {
   border-top: 3px #145b1d;
   background-image: url("../images/leaf-bg.svg");
   background-size: 64px;
-
+  border: 3px solid #2d5a4d;
 }
 
 .logo {
   text-align: center;
 }
 
-h1{
+h1 {
   color: #fff;
 }
 
 .nav {
 
   text-align: center;
-
 }
 
 .nav a {
@@ -37,38 +36,31 @@ h1{
 
   background-color: #fff;
   color: #467366;
-  background-image: url("../images/leaf-icon.svg")
-  ;background-position: .75em;
+  background-image: url("../images/leaf-icon.svg");
+  background-position: .75em;
   background-size: 50px auto;
   background-repeat: no-repeat;
-
 }
 
 .banner {
-
-  background-image: url("../images/banner.jpg");
+  background-image: linear-gradient(to top, rgba(16, 52, 41, .8), rgba(16, 52, 41, 0) 50%), url("../images/banner.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
-  border: 3px solid #145b1d;
-
 }
 
 .banner-content {
-
   padding-top: 150px;
   background-image: url("../images/two-leaves.svg");
   background-position: 10px 180px;
   background-size: 100px auto;
   background-repeat: no-repeat;
   color: #fff;
-
 }
 
 p {
 
   padding-top: 150px;
-
 }
 
 @media only screen and (min-width: 60em) {
